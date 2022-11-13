@@ -11,7 +11,9 @@ describe('HeadingComponent', () => {
       declarations: [ HeadingComponent ]
     })
     .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(HeadingComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

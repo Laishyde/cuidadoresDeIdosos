@@ -1,16 +1,10 @@
-import { Location, LocationStrategy, PathLocationStrategy } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { UIRouterModule } from '@uirouter/angular'
+import { RouterModule, Routes } from '@angular/router';
+
+const routes: Routes = [];
 
 @NgModule({
-    imports: [UIRouterModule.forRoot()],
-    providers: [
-        Location,
-        {
-            provide: LocationStrategy,
-            useClass: PathLocationStrategy
-        }
-    ],
-    exports: [UIRouterModule]
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
 })
 export class AppRoutingModule { }

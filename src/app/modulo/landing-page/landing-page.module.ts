@@ -1,23 +1,21 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LandingPageComponent } from './views/landing-page.component';
-import { HeadingComponent } from './components/heading/heading.component';
 import { RodapeComponent } from './components/rodape/rodape.component';
-import { ContainerComponent } from './components/container/container.component';
+import { HeadingComponent } from './components/heading/heading.component';
+import { LandingPageComponent } from './views/landing-page.component';
 
 
 
 @NgModule({
   declarations: [
-    LandingPageComponent,
-    HeadingComponent,
     RodapeComponent,
-    ContainerComponent
+    HeadingComponent,
+    LandingPageComponent
   ],
   imports: [
     CommonModule
   ],
-  exports:[
+  exports: [
     LandingPageComponent
   ]
 })
