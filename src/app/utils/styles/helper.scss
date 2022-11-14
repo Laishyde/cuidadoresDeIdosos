@@ -88,7 +88,7 @@ $base-spacing: 4;
 
     // -> line heigth
 
-    .#{$helper-prefix}fs-#{$base-font * $i} {line-height: #{$base-font * $i}px !important;}
+    .#{$helper-prefix}fs-#{$base-font * $i} {line-height: #{$base-font * $i}px!important;}
 
 }
 
@@ -110,12 +110,15 @@ $base-spacing: 4;
 .#{$helper-prefix}pb-0 { padding-bottom: 0!important;}
 .#{$helper-prefix}ps-0 { padding-left: 0!important;}
 
+.#{$helper-prefix}mt-10 { margin-top: #{$base-spacing * 10}px !important;
+}
+
 @for $i from 1 to 30 {
 
     // -> margin
 
-    .#{$helper-prefix}m-#{$base-spacing * $i} {margin: #{$base-spacing * $i}px !important;}
-    .#{$helper-prefix}mt-#{$base-spacing * $i} {margin-top: #{$base-spacing * $i}px !important;}
+    .#{$helper-prefix}m-#{$base-spacing * $i} {margin: #{$base-spacing * $i}px!important;}
+    .#{$helper-prefix}mt-#{$base-spacing * $i} {margin-top: #{$base-spacing * $i}px!important;}
     .#{$helper-prefix}me-#{$base-spacing * $i} {margin-right: #{$base-spacing * $i}px !important;}
     .#{$helper-prefix}mb-#{$base-spacing * $i} {margin-bottom: #{$base-spacing * $i}px !important;}
     .#{$helper-prefix}ms-#{$base-spacing * $i} {margin-left: #{$base-spacing * $i}px !important;}
@@ -124,7 +127,7 @@ $base-spacing: 4;
     // -> padding
 
     .#{$helper-prefix}p-#{$base-spacing * $i} { padding: #{$base-spacing * $i}px !important;}
-    .#{$helper-prefix}pt-#{$base-spacing * $i} { padding-top: #{$base-spacing * $i}px !important;}
+    .#{$helper-prefix}pt-#{$base-spacing * $i} { padding-top: #{$base-spacing * $i}px!important;}
     .#{$helper-prefix}pe-#{$base-spacing * $i} { padding-right: #{$base-spacing * $i}px !important;}
     .#{$helper-prefix}pb-#{$base-spacing * $i} { padding-bottom: #{$base-spacing * $i}px !important;}
     .#{$helper-prefix}ps-#{$base-spacing * $i} { padding-left: #{$base-spacing * $i}px !important;}
@@ -142,16 +145,16 @@ $base-spacing: 4;
 .#{$helper-prefix}flex-row { flex-direction: row!important;}
 .#{$helper-prefix}flex-row-reverse { flex-direction: row-reverse!important;}
 
-.#{$helper-prefix}flex-c { flex-direction: column!important;}
+.#{$helper-prefix}flex-col { flex-direction: column!important;}
 .#{$helper-prefix}flex-c-r { flex-direction: column-reverse!important;}
 
-.#{$helper-prefix}justify-con-start { justify-content: flex-start!important;}
-.#{$helper-prefix}justify--con-end { justify-content: flex-end!important;}
-.#{$helper-prefix}justify-con-ini { justify-content: initial!important;}
-.#{$helper-prefix}justify-con-center { justify-content: center!important;}
-.#{$helper-prefix}justify-con-betwen { justify-content: space-between!important;}
-.#{$helper-prefix}justify-con-around { justify-content: space-around!important;}
-.#{$helper-prefix}justify-con-evenly { justify-content: space-evenly!important;}
+.#{$helper-prefix}justify-cont-start { justify-content: flex-start!important;}
+.#{$helper-prefix}justify--cont-end { justify-content: flex-end!important;}
+.#{$helper-prefix}justify-cont-ini { justify-content: initial!important;}
+.#{$helper-prefix}justify-cont-center { justify-content: center!important;}
+.#{$helper-prefix}justify-cont-betwen { justify-content: space-between!important;}
+.#{$helper-prefix}justify-cont-around { justify-content: space-around!important;}
+.#{$helper-prefix}justify-cont-evenly { justify-content: space-evenly!important;}
 .#{$helper-prefix}justify-self-right { justify-self: right!important;}
 
 .#{$helper-prefix}align-itens-start { align-items: flex-start!important;}
