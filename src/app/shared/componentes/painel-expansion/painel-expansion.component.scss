@@ -1,0 +1,20 @@
+.painel{
+    min-width: 1000px;
+    border-left: 6px solid #000;
+    padding: 14px 0px;
+       
+}
+
+.mat-expansion-panel {
+    .mat-expansion-panel-header {
+        font-size: 20px;
+
+        .mat-content {
+            display: flex;
+            justify-content: space-around;
+            margin-left: 50px !important;
+            margin-right: 50px !important;
+        }
+    }
+}
+
