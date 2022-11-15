@@ -24,3 +24,53 @@ footer{
     }
 }
 
+@media(max-width: 1199px){
+    .app{
+        width: 100%;
+    }
+    footer {
+        ul{
+            li{
+            width: 25%;
+            }
+            .rodape-res {
+                width: 45%;
+            }
+        } 
+    }
+}
+
+@media(max-width: 744px) {
+    footer {
+        .d-col{
+            display: flex;
+            flex-direction: column;
+            margin-top: 0px!important;
+        }
+        .resp-center{
+            display: flex;
+            justify-content: center;
+        }
+        ul {
+            li{
+                width: 100%;
+                text-align: center;
+            }
+            .rodape-res {
+                width: 100%;
+            }
+        }
+        p{
+            text-align: center;
+        }
+        .logo{
+            margin-bottom: 20px;
+        }
+        .btn {
+            margin-top: 32px;
+            margin-bottom: 32px;
+        }
+
+    }
+}
+
