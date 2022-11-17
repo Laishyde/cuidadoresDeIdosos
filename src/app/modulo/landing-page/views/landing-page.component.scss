@@ -1,14 +1,61 @@
-h2 {
-    text-align: center;
-    font-weight: 400;
-}
+ .small-icon {
+     width: 100%;
+     text-align: center;
+     border-top: 2px solid #ff6900;
 
-.icon {
-    font-size: 42px;
-    text-align: center;
-}
+     .feed {
+         font-size: 40px;
+     }
 
-.bord {
-    border-top: 2px solid #ff6900;
-    width: 100%;
-}
+     h2 {
+         text-align: center;
+         font-weight: 400;
+     }
+
+     .font {
+         font-size: 35px;
+         padding-bottom: 20px;
+     }
+
+ }
+
+ button {
+     border-radius: 20px;
+     padding: 2px 50px;
+     font-size: 15px;
+     color: #3f51b5;
+
+ }
+
+ button:hover {
+     background-color: #FF9400;
+
+ }
+
+ .icon {
+     font-size: 42px;
+     text-align: center;
+ }
+
+ .app {
+     .question {
+         width: 100%;
+         text-align: center;
+         padding: 20px;
+         font-size: 25px;
+         border-top: 2px solid #ff6900;
+         margin-top: 40px;
+
+         .backgroundBlue {
+             color: #3896bc;
+             font-size: 44px;
+         }
+     }
+
+     .bord {
+         border-top: 2px solid #ff6900;
+         width: 100%;
+     }
+
+
+ }
