@@ -5,6 +5,8 @@ import { HeadingComponent } from './components/heading/heading.component';
 import { LandingPageComponent } from './views/landing-page.component';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { MatButtonModule } from '@angular/material/button';
+import { CardsComponent } from './components/cards/cards.component';
+
 
 
 
@@ -12,7 +14,9 @@ import { MatButtonModule } from '@angular/material/button';
   declarations: [
     RodapeComponent,
     HeadingComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    CardsComponent,
+    
   ],
   imports: [
     CommonModule,
