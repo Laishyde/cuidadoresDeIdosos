@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';
-import { SlideComponent } from './componentes/slide/slide.component';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { PainelExpansionComponent } from './componentes/painel-expansion/painel-expansion.component';
 import { MatIconModule } from '@angular/material/icon';
+import { CarouselComponent } from './componentes/carousel/carousel.component';
 
 @NgModule({
   declarations: [
-    SlideComponent,
     PainelExpansionComponent,
+    CarouselComponent,
   
   ],
   imports: [
@@ -21,10 +21,10 @@ import { MatIconModule } from '@angular/material/icon';
   ],
   exports:[
     MatButtonModule,
-    SlideComponent,
     MatExpansionModule,
     PainelExpansionComponent,
     MatIconModule,
+    CarouselComponent,
 
   ]
 })

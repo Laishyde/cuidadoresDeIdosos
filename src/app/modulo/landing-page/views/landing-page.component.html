@@ -1,10 +1,11 @@
 <app-heading></app-heading>
 <app-cards></app-cards>
-
 <div class="app zh-d-flex zh-align-itens-center zh-flex-col">
+    <h2 class=" color-Segundary font ">DEPOIMENTOS:</h2>
+    <app-carousel [slideInterval]="2000" [images]="images2" [autoSlide]="true" class=""></app-carousel>
     <div class="small-icon">
-    <mat-icon class=" feed color-Segundary zh-mt-15">feed</mat-icon>
-    <h2 class=" font ">RECEBA UM <span class="color-Segundary " >ORÇAMENTO EM ATÉ 1H.</span></h2>
+        <mat-icon class=" feed color-Segundary zh-mt-15">feed</mat-icon>
+        <h2 class=" font ">RECEBA UM <span class="color-Segundary " >ORÇAMENTO EM ATÉ 1H.</span></h2>
     </div>
     <button mat-raised-button color="primary" class="btn"> Preencha o formulário</button>
     <div class="question">
@@ -26,7 +27,7 @@
 
 
 <h2 class="color-Segundary zh-mb-32">PARCEIROS:</h2>
-<app-slide class=""></app-slide>
+<app-carousel [images]="images" [autoSlide]="true" class=""></app-carousel>
 <div class="">
     <app-rodape></app-rodape>
 </div>
