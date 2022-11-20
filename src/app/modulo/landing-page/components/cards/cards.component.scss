@@ -1,10 +1,70 @@
-.card-wall{
-   width: 100%;
-   background-image: url(../../../../../assets/imagens/pexels-kampus-production-7551675.png);
-   height: 100%;
-.card{
-    width: 10%;
+.card-wall {
+    width: 100%;
+    background-image: url(../../../../../assets/imagens/pexels-kampus-production-7551675.png);
+
+
+    .larger {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        display: inline-grid;
+        grid-template-columns: repeat(4, 210px);
+        gap: 50px;
+        
+
+    }
+
+    .card {
+        width: 250px;
+        padding: 10px;
+        background-color: #000;
+        margin: 20px;
+        border-radius: 20px;
+       
+    }
+    .blue{
+        background-color: #182E59;
+        text-align: center;
+        color: #fff;
+        
+    }
+    .white{
+        background-color: #fff;
+        text-align: center;
+        color: #182E59;
+    }
+   h3{
     padding: 20px;
+   }
+  .icon{
+    font-size: 50px; 
+    padding-right: 40px;
+  
+ }
 }
-   
+.btn{
+    text-align: center;
+    color: #fff;
+     
+}
+.btn p{
+    font-size: 20px;
+}
+.btn button {
+    background-color: #4e84e9;
+    color: #fff;
+    padding: 13px;
+    width: 250px;
+    border-radius: 60px;
+    border: 1px solid #ccc;
+    font-size: 17px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+.btn button:hover {
+    background-color: #FF9400;
 }
