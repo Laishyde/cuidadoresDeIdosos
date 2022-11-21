@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { CuidarService } from 'src/app/services/cuidar.service';
+import { dados } from '../interface/dados.interface';
 
 @Component({
   selector: 'app-landing-page',
@@ -7,10 +9,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingPageComponent implements OnInit {
 
-  constructor() { }
+  public dados:dados[] = [];
+
+  constructor(
+     private service: CuidarService
+  ) { }
 
   ngOnInit(): void {
+   this.getDados();
+   console.log(this.dados.length);
+   
   }
+
+  getDados(){
+    this.service.getDados().
+      subscribe( res => this.dados = res);
+  }
+
 
   images2 = [
     {
