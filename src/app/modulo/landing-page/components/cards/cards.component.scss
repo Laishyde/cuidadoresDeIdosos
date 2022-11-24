@@ -4,7 +4,8 @@
     text-align: center;
     padding-top: 32px;
 }
-.bar{
+
+.bar {
     font-size: 35px;
     width: 1200px;
     margin: 0 auto;
@@ -13,47 +14,50 @@
     color: #fff;
     border-radius: 20px;
     padding: 20px;
-    
+
 }
 
-.bord{
+.bord {
     border-top: 2px solid #fff;
     padding-top: 20px;
     font-size: 35px;
     width: 1200px;
-        margin: 0 auto;
+    margin: 0 auto;
 
 }
-.larger-text{
+
+.larger-text {
     text-align: center;
     width: 700px;
     margin: 0 auto;
     line-height: 25px;
     color: #fff;
-    p{
+
+    p {
         margin: 0 auto;
         text-align: center;
         max-width: 500px;
     }
-    
-}
-.text h3{
-    font-size: 20px;
-    
+
 }
 
-.small-text{
+.text h3 {
+    font-size: 20px;
+
+}
+
+.small-text {
     width: 1200px;
     margin: 0 auto;
     text-align: center;
     font-size: 32px;
     border-top: 2px solid #fff;
-    
+
 }
-    
+
 
 .larger {
-    width: 100%;
+    width: 100vh;
     display: flex;
     justify-content: center;
     display: inline-grid;
@@ -68,28 +72,33 @@
     background-color: #000;
     margin: 20px;
     border-radius: 20px;
-    
+
 }
-.blue{
+
+.blue {
     background-color: #182E59;
     text-align: center;
     color: #fff;
-    
+
 }
-.white{
+
+.white {
     background-color: #fff;
     text-align: center;
     color: #182E59;
 }
-.card p{
+
+.card p {
     padding-top: 20px;
 }
-h3{
-padding-top: 20px;
+
+h3 {
+    padding-top: 20px;
 }
-.icon{
-font-size: 50px; 
-padding-right: 50px;
+
+.icon {
+    font-size: 50px;
+    padding-right: 50px;
 
 }
 
@@ -99,63 +108,105 @@ padding-right: 50px;
 
 
 .nav {
-width: 100%;
-display: flex;
-align-items: center;
-flex-direction: column;
-
-
-.number {
-    width: 950px;
-    padding: 15px;
-    border-radius: 30px;
-    background-color: #FF9400;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    color: #fff;
-    z-index: 99999;
+    align-items: center;
+    flex-direction: column;
+
+
+    .number {
+        width: 950px;
+        padding: 15px;
+        border-radius: 30px;
+        background-color: #FF9400;
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        z-index: 99999;
+    }
+
+    .progress-bar {
+        background-color: rgb(255, 255, 255);
+        border-radius: 30px;
+        height: 48px;
+        box-shadow: 1px 1px 1px 1px rgb(197, 180, 207);
+        color: #000;
+        padding: 0px 50px;
+        margin-left: -42px;
+
+    }
+
+    .speed-2 {
+        width: 1000px;
+        background-color: #FF9400;
+        padding: 15px;
+        border-radius: 30px;
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+    }
+
+    .speed {
+        background-color: #fff;
+        width: 1000px;
+        border-radius: 30px;
+        margin-top: 10px;
+    }
 }
 
-.progress-bar{
-    background-color: rgb(255, 255, 255);
-    border-radius: 30px;
-    height: 48px;
-    box-shadow: 1px 1px 1px 1px rgb(197, 180, 207);
-    color: #000;
-    padding: 0px 50px;
-    margin-left: -42px;
-  
-}
-
-.speed-2 {
-    width: 1000px;
-    background-color: #FF9400;
-    padding: 15px;
-    border-radius: 30px;
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
-}
-
-.speed {
-    background-color: #fff;
-    width: 1000px;
-    border-radius: 30px;
-    margin-top: 10px;
-    }    
-}
-
- button {
+button {
     margin-top: 32px;
     margin-bottom: 32px;
-     border-radius: 20px;
-     padding: 2px 30px;
-     font-size: 15px;
- }
+    border-radius: 20px;
+    padding: 2px 30px;
+    font-size: 15px;
+}
 
- button:hover {
-     color: #ffffff !important;
+button:hover {
+    color: #ffffff !important;
     background-color: #FF9400;
- }
+}
+
+@media(max-width: 1039px) {
+    .card-wall {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .bord {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .larger-text{
+        width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    }
+
+    .small-text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
 
 
+
+    .larger {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+
+    }
+}
