@@ -10,7 +10,7 @@
 }
 
 .app {
-    width: 1060px;
+    max-width: 1060px;
     margin: 0 auto;
 }
 html, body { height: 100%; }
@@ -24,4 +24,10 @@ h2 {
     font-size: 2em;
     margin-bottom: 32px;
     text-align: center;
+}
+
+.tilefix {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
