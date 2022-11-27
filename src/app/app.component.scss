@@ -9,3 +9,16 @@ h2{
     margin-bottom: 32px;
 }
 
+.mat-expansion-panel-header:not([aria-disabled=true]) {
+    max-width: 1000px !important;
+
+    .mat-content {
+        max-width: 1000px !important;
+    }
+}
+
+.app {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+

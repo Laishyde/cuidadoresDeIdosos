@@ -100,4 +100,26 @@ button:hover {
  }
 
 
+ .arrow {
+     a {
+         transition: 2000ms;
+     }
+ }
 
+
+ @media(max-width: 900px) {
+     header {
+         background-image: url(../../../../../assets/imagens/bg-responsivo.jpg);
+
+         .logo {
+             padding-right: 20px;
+         }
+
+         .phone {
+             p {
+                 display: none;
+             }
+         }
+     }
+
+ }
