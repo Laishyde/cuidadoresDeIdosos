@@ -32,4 +32,15 @@
         width: 100%;
     }
 }
+@media(max-width:900px){
+    .tilefix{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .painel{
+        width: 100%;
+        margin: 0;
+    }
+}
 

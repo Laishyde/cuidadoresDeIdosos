@@ -137,3 +137,17 @@ button:hover {
     color: #ffffff !important;
     background-color: #FF9400;
 }
+@media(max-width:900px){
+    .card-wall{
+        width: 100%;
+    } 
+    .bar{
+        width: 100%;
+    }
+    .bord{
+        width: 100%;
+    }
+    .larger{
+        width: 100%;
+    }
+}

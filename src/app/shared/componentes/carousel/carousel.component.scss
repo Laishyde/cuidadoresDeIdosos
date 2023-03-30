@@ -108,3 +108,11 @@
 .btn-next {
     font-size: 35px;
 }
+@media(max-width:900px){
+    .carousel-container {
+            width: 500px;
+            margin: 0;
+        }
+      
+        
+}

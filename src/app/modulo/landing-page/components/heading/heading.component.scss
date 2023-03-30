@@ -31,16 +31,18 @@ header {
     text-align: center;
 }
 
+
 .texto {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;;
     color: #bbbeff;
     font-weight: bold;
     font-size: 23px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    width: 80%;
+    width: 50%;
     p{
-        font-size: 18px;
+        font-size: 20px;
         line-height: 2rem;
         color: #000;
         span{
@@ -109,6 +111,7 @@ button:hover {
 
  @media(max-width: 900px) {
      header {
+        width: 100%;
          background-image: url(../../../../../assets/imagens/bg-responsivo.jpg);
 
          .logo {
@@ -119,7 +122,29 @@ button:hover {
              p {
                  display: none;
              }
+            
+         }
+         .nav-bar{
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+           
+           
+         }
+         .texto{
+            width: 100%;
+            text-align: center;
+            
+          
+          
          }
      }
+     .header{
+        width: 100%;
+        align-items: center;
+        margin-left: 0;
+     }
+    
+    
 
  }
